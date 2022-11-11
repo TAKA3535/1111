@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(191, 216, 193);
+    background-image: url(dog.png);
+    /* background-image: url(dog.png); */
+    /* 背景画像の繰り返しを設定,no-repeatで繰り返しなし,repeat-yは縦に繰り返しrepeat-xは横に繰り返し*/
+    background-repeat: no-repeat;
+}
+
+div p{
+    color: red;
+}
+/* ％だと画面サイズに応じて伸縮する */
+html{
+    font-size: 100%;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: serif;
+}
+/* 画面サイズに関係なくサイズ固定 */
+h2{
+    font-size: 20px;
+    font-family: "遊ゴシック体", "Yu Gothic", sans-serif;
+}
+
+h3{
+    font-weight: bold;
+}
+
+h4{
+    line-height:  2.5;
+}
+
+h5{
+    color: #0bd;
+    font-family: 'Hina Mincho', serif;
+}
+
+h6{
+    background-color: violet;
+    font-size: 20px;
+}
+
+.cl{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* 下記の書き方でもOK */
+    margin: 10px 0 0 10px;
+}
+
+.pa{
+    background-color: yellowgreen;
+    padding: 20px 10px 20px 10px;
+}
+
+.bo1{
+    border-width: 1px;
+    border-style: solid;
+}
+
+.bo2{
+    border-width: thick;
+    border-style: solid;
+}
+
+.bo3{
+    border-width: 1px 4px 8px 12px;
+    border-style: solid;
+}
